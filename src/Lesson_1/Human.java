@@ -6,7 +6,7 @@ public class Human implements Move {
     private int humanRunLength;
     private int humanJumpHeight;
 
-    Human(int humanRunLength, int humanJumpHeight) {
+    public Human(int humanRunLength, int humanJumpHeight) {
         this.humanRunLength = humanRunLength;
         this.humanJumpHeight = humanJumpHeight;
     }
@@ -21,6 +21,11 @@ public class Human implements Move {
     public int toJump() {
         System.out.println("Человек может прыгнуть на " + humanJumpHeight + " метра.");
         return humanJumpHeight;
+    }
+
+    @Override
+    public String toString() {
+        return "Человек";
     }
 }
 

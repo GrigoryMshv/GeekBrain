@@ -21,4 +21,9 @@ public class Cat implements Move {
         System.out.println("Кот может прыгать на " + catJumpHeight + " метра.");
         return catJumpHeight;
     }
+
+    @Override
+    public String toString() {
+        return "Кот";
+    }
 }

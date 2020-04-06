@@ -21,4 +21,9 @@ public class Robot implements Move {
         System.out.println("Робот может прыгать на " + robotJumpHeight + " метров.");
         return robotJumpHeight;
     }
+
+    @Override
+    public String toString() {
+        return "Робот";
+    }
 }

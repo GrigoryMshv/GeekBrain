@@ -1,6 +1,6 @@
 package Lesson_1;
 
-public class Wall {
+public class Wall implements Barrier {
 
     private static final int HEIGHT = 2;
 
